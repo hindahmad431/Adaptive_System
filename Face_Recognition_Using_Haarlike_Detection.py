@@ -33,3 +33,5 @@ for (column, row, width, height) in detected_faces:
 cv.imshow('DetectedFace', original_image)
 cv.waitKey(0)
 cv.destroyAllWindows()
+
+#This Code credits goes to  Kristijan Ivancic, Traditional Face Detection With Python, https://realpython.com/traditional-face-detection-python/, Accessed May 2020
