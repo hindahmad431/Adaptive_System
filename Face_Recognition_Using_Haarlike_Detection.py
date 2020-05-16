@@ -35,3 +35,4 @@ cv.waitKey(0)
 cv.destroyAllWindows()
 
 #This Code credits goes to  Kristijan Ivancic, Traditional Face Detection With Python, https://realpython.com/traditional-face-detection-python/, Accessed May 2020
+
