@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[18]:
 
 
 import dlib
@@ -9,14 +8,10 @@ import face_recognition
 import cv2
 
 
-# In[24]:
-
 
 img = cv2.imread(r"C:\Users\hinda\Documents\FG\035A18.jpg", 1)
 face_landmarks_list = face_recognition.face_landmarks(img)
 
-
-# In[27]:
 
 
 detector = dlib.get_frontal_face_detector()
@@ -24,13 +19,8 @@ predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 
-# In[33]:
-
-
 faces_in_image = detector(img_gray, 0)
 
-
-# In[ ]:
 
 
 # loop through each face in image
